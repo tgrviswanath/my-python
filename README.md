@@ -57,6 +57,23 @@ my-python/
 │   ├── error_handlers.py        Result type, retry, circuit breaker
 │   └── benchmarks.py            timer, compare, profile_memory
 │
+├── 13_fastapi/                  🌐 FastAPI — routing, Pydantic, auth, DB, testing, deployment
+│   ├── 01_introduction_setup    What is FastAPI, setup, project structure
+│   ├── 02_routing_path_query    HTTP methods, path/query params, APIRouter
+│   ├── 03_pydantic_schemas      Pydantic v2, request/response models, validators
+│   ├── 04_dependency_injection  Depends(), DB sessions, auth dependencies
+│   ├── 05_database_sqlalchemy   Async SQLAlchemy, ORM models, repository pattern
+│   ├── 06_authentication_jwt    JWT tokens, bcrypt, OAuth2, RBAC
+│   ├── 07_middleware_error      Custom middleware, exception handlers
+│   ├── 08_testing               TestClient, AsyncClient, dependency_overrides
+│   ├── 09_advanced_features     WebSockets, file upload, caching, SSE
+│   ├── 10_production_deployment Docker, Gunicorn, Nginx, health checks
+│   └── 11_interview_questions   18 Q&A from basic → advanced
+│
+├── 14_system-design/            🏗️ System design — scalability, caching, distributed systems
+│   ├── 01_system_design_fundamentals.md   CAP theorem, load balancing, caching, rate limiter, URL shortener
+│   └── 02_scalable_python_architectures.md Microservices, event-driven, chat system, notification system
+│
 ├── requirements.txt             All dependencies pinned
 ├── EVALUATION.md                Self-evaluation (9.2/10)
 └── README.md                    This file
@@ -101,7 +118,9 @@ pytest projects/04_async_task_system/tests/ -v --asyncio-mode=auto
 | 9 | Performance + testing + code quality | `expert/` |
 | 10 | Interview prep: Easy + Medium | `interview-prep/` |
 | 11 | Interview prep: Hard + System Design | `interview-prep/` |
-| 12 | Projects review + utils | `projects/` + `utils/` |
+| 12 | FastAPI — routing, auth, DB, testing | `13_fastapi/` |
+| 13 | System Design — scalability, architectures | `14_system-design/` |
+| 14 | Projects review + utils | `projects/` + `utils/` |
 
 ---
 
